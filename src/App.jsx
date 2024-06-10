@@ -14,13 +14,13 @@ function App() {
       <Nav/>
       <Tabs/>
       <div className='cardsList'>
-      <Crads type={"لقاء"} title={"فعالية WWDC24 Watch Party"} eventLocation={"الرياض"} period={"7 أسابيع"} start={"15-06-2024"}/>
-      <Crads type={"معسكر"} title={"هندسة الحوسبة السحابية المتقدمة AWS"} eventLocation={"الرياض"} period={"7 أسابيع"} start={"19-06-2024"}/>
-      <Crads type={"برنامج"} title={"إدارة خدمات تقنية المعلومات (ITIL)"} eventLocation={"الرياض"} period={"7 أسابيع"} start={"25-06-2024"}/>
+      <Crads type={"لقاء"} title={"فعالية WWDC24 Watch Party"} eventLocation={"الرياض"} period={"يوم"} start={"15-06-2024"}/>
+      <Crads type={"معسكر"} title={"هندسة الحوسبة السحابية المتقدمة AWS"} eventLocation={"الرياض"} period={"شهرين"} start={"19-06-2024"}/>
+      <Crads type={"برنامج"} title={"إدارة خدمات تقنية المعلومات (ITIL)"} eventLocation={"الرياض"} period={"اسبوع"} start={"25-06-2024"}/>
 
       <Crads type={"معسكر"} title={"تصميم وتصنيع الحلول الهندسية"} eventLocation={"الرياض"} period={"7 أسابيع"} start={"10-06-2024"}/>
       <Crads type={"برنامج"} title={"الحوسبة السحابية والذكاء الاصطناعي"} eventLocation={"الرياض"} period={"7 أسابيع"} start={"12-06-2024"}/>
-      <Crads type={"لقاء"} title={"قوة مهارة الإقناع"} eventLocation={"الرياض"} period={"7 أسابيع"} start={"09-06-2024"}/>
+      <Crads type={"لقاء"} title={"قوة مهارة الإقناع"} eventLocation={"الرياض"} period={"يومين"} start={"09-06-2024"}/>
       
       
        </div>

@@ -2,6 +2,8 @@ import React from 'react'
 import location from "../../assets/location.png"
 // import calenders from "../../assets/calendars.png"
 // import calendar from "../../assets/calender.png"
+import calendar from "../../assets/calendar.png"
+import calendars from "../../assets/calendars.png"
 import "./Cards.css"
 
 function Crads({type, title, eventLocation, period, start }) {
@@ -34,13 +36,13 @@ function Crads({type, title, eventLocation, period, start }) {
             </div>
             <div className='location'>
                 <span><img src={location}></img>{eventLocation}</span>
-                <span><img src={location}></img>{period}</span>
+                <span><img src={calendar}></img>{period}</span>
 
             </div>
 
             <div className='details'>
       
-                <span><img src={location}></img>{start}</span>
+                <span><img src={calendars}></img>{start}</span>
 
                 <a style={{border:check?(type==="لقاء"? "2px solid #c084fc": type==="برنامج"? "2px solid #91d8db": type==="معسكر"? "2px solid #abadf5":"2px solid gray"): "2px solid gray"}} className={check?(type==="لقاء"? "Lclass": type==="برنامج"? "Pclass": type==="معسكر"? "Mclass":""):""}>{check? btnValue:closeValue}</a>
             </div>
