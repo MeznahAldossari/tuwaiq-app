@@ -23,14 +23,15 @@
         list-style: none;
         color: white;
         /* background-color: antiquewhite; */
-        width: 90%;
+        width: 95%;
         justify-content: space-between;
         align-items: center;
+        /* background-color: aqua; */
         
     }
     li{
         margin-right: 15px;
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
     li a{
         cursor: pointer;
@@ -102,14 +103,15 @@ ul{
     list-style: none;
     color: white;
     /* background-color: antiquewhite; */
-    width: 70%;
+    width: 80%;
+    
     justify-content: space-between;
     align-items: center;
     
 }
 li{
     margin-right: 15px;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 li a{
     cursor: pointer;
@@ -131,7 +133,7 @@ li a:hover{
 .login a{
   color: white;
   margin-left: 35px;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: bold;
   cursor: pointer;
  

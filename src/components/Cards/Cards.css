@@ -6,7 +6,7 @@
         border-radius: 10px;
         border: 1px solid rgb(220, 217, 217);
         width: 95%;
-        height: 45vh;
+        height: 47vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -18,7 +18,7 @@
           border-radius: 10px;
           border: 1px solid rgb(220, 217, 217);
           width: 95%;
-          height: 45vh;
+          height: 47vh;
           display: flex;
           margin-top: 10px;
           flex-direction: column;
@@ -28,7 +28,8 @@
       }
       .mainCards:hover{
           width: 96%;
-          height: 47vh; 
+          height: 47.5vh; 
+          
       }
       .CardTitle{
           display: flex;
@@ -38,7 +39,7 @@
           /* background-color: antiquewhite; */
           height: 15vh;
           width: 90%;
-          margin-top: 25px;
+          margin-top: 10px;
       }
       
       .CardTitle p{
@@ -141,8 +142,8 @@
         /* background-color: aqua; */
         border-radius: 10px;
         border: 1px solid rgb(220, 217, 217);
-        width: 30vw;
-        height: 45vh;
+        width: 29vw;
+        height: 47vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -153,7 +154,7 @@
           border-radius: 10px;
           border: 1px solid rgb(220, 217, 217);
           width: 30vw;
-          height: 45vh;
+          height: 47vh;
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
@@ -161,8 +162,8 @@
          border-right: 10px;
       }
       .mainCards:hover{
-          width: 30.5vw;
-          height: 47vh; 
+          width: 29.5vw;
+          height: 48vh; 
       }
       .CardTitle{
           display: flex;
@@ -172,7 +173,7 @@
           /* background-color: antiquewhite; */
           height: 15vh;
           width: 25vw;
-          margin-top: 25px;
+          margin-top: 10px;
       }
       
       .CardTitle p{
@@ -191,7 +192,7 @@
           
       }
       .location img{
-          width: 2.2rem;
+        width: 1.8rem;
           margin-left: 10px;
       }
       .location span{
@@ -209,13 +210,13 @@
           margin-right: 40px;
           align-items: center;
           justify-content: space-between ;
-          width: 27vw;
+          width: 25vw;
           height: 10vh;
       
       }
       
       .details img{
-          width: 2.2rem;
+          width: 1.8rem;
           margin-left: 10px;
       
       }
@@ -230,11 +231,11 @@
       .details a{
           border-radius: 20px;
          
-          width: 9vw;
+          width: 7vw;
           height: 6vh;
           text-align: center;
           vertical-align: middle;
-          line-height: 2.5em;
+          line-height: 2.1em;
           
       }
       
